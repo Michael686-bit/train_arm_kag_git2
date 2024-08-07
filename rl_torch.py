@@ -144,7 +144,7 @@ class DDPG(object):
 
         latest_file_name = "params_20240807_194210.pth"
         file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名  params_20240807_194210
-        file_path = "model_save\params_20240807_194210.pth"
+
 
         checkpoint = torch.load(file_path)
         self.actor_eval.load_state_dict(checkpoint['actor_eval'])

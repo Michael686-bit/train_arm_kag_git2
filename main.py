@@ -6,13 +6,13 @@ Feature & reward engineering.
 # from final.env import ArmEnv
 # from final.rl import DDPG
 
-# from _2DOF_Pytorch_test.env import ArmEnv
-# # from rl import DDPG
-# from _2DOF_Pytorch_test.rl_torch import DDPG
-
-from env import ArmEnv
+from _2DOF_Pytorch_test.env import ArmEnv
 # from rl import DDPG
-from rl_torch import DDPG
+from _2DOF_Pytorch_test.rl_torch import DDPG
+
+# from env import ArmEnv
+# # from rl import DDPG
+# from rl_torch import DDPG
 
 MAX_EPISODES = 900
 MAX_EP_STEPS = 300
