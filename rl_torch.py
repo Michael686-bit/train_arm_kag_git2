@@ -139,11 +139,12 @@ class DDPG(object):
         import os
         save_path = './model_save'
 
-        latest_file_name = os.listdir(save_path)[-1]  # 获取最后一个文件名
-        file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名
-
-        # latest_file_name = "params_20240806_162900.pth"
+        # latest_file_name = os.listdir(save_path)[-1]  # 获取最后一个文件名
         # file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名
+
+        latest_file_name = "params_20240807_194210.pth"
+        file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名  params_20240807_194210
+        file_path = "model_save\params_20240807_194210.pth"
 
         checkpoint = torch.load(file_path)
         self.actor_eval.load_state_dict(checkpoint['actor_eval'])

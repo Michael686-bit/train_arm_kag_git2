@@ -16,7 +16,7 @@ from rl_torch import DDPG
 
 MAX_EPISODES = 900
 MAX_EP_STEPS = 300
-ON_TRAIN = 1 #True
+ON_TRAIN = 0 #True
 
 # set env
 env = ArmEnv()
