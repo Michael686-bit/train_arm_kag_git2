@@ -35,7 +35,7 @@ def train():
         s = env.reset()
         ep_r = 0.
         for j in range(MAX_EP_STEPS):
-            env.render()
+            # env.render()
 
             a = rl.choose_action(s)
 
