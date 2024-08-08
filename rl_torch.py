@@ -142,7 +142,7 @@ class DDPG(object):
         # latest_file_name = os.listdir(save_path)[-1]  # 获取最后一个文件名
         # file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名
 
-        latest_file_name = "params_20240807_194210.pth"
+        latest_file_name = "params_20240808_094051.pth"
         file_path = os.path.join(save_path, latest_file_name)  # 使用传入的文件名  params_20240807_194210
 
 
