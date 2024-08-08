@@ -14,7 +14,7 @@ from kag_env import ArmEnv
 # from rl import DDPG
 from rl_torch import DDPG
 
-MAX_EPISODES = 900
+MAX_EPISODES = 2000
 MAX_EP_STEPS = 300
 ON_TRAIN = 1 #True
 

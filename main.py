@@ -14,7 +14,7 @@ from env import ArmEnv
 # from rl import DDPG
 from rl_torch import DDPG
 
-MAX_EPISODES = 900
+MAX_EPISODES = 2000
 MAX_EP_STEPS = 300
 ON_TRAIN = 0 #True
 
@@ -35,7 +35,7 @@ def train():
         s = env.reset()
         ep_r = 0.
         for j in range(MAX_EP_STEPS):
-            env.render()
+            # env.render()
 
             a = rl.choose_action(s)
 
