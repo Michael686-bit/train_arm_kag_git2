@@ -190,8 +190,8 @@ def eval_p2p():
 if ON_TRAIN:
     train()
 else:
-    # eval()
-    eval_p2p()
+    eval()
+    # eval_p2p()
     # cde = 0
 
 
